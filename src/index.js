@@ -9,7 +9,7 @@ import CountdownTimer from "./CountDownTimer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <CountdownTimer expirationDate={1711994240000} />
+    <CountdownTimer />
   </React.StrictMode>
 );
 
